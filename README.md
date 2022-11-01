@@ -1,12 +1,13 @@
-## Javascript Challenge - Find the largest of two number💪🏾
+## Javascript Challenge - Find the grade💪🏾
 
 ##### Your Task 😃:
 
-1. Create two varaibles `x` and `y` each ones value shall be a number of you choice
-2. Create an if statement to see which one of the numbers is larger than the other
+1. Create a varaible `grade` and give it a value between 1 and 100
+2. Create an if statement that does the following
 
-##### Example 😃:
-
-if `x` value is `10` and `y` value is `12` the if statement shall console log that _'12 is greater than 10'_
+- if grade is between `100` and `90` the if statement shall console log `You got an A grade`
+- if grade is between `90` and `75` the if statement shall console log `You got an B grade`
+- if grade is between `75` and `60` the if statement shall console log `You got an C grade`
+- if grade is less than `60` the if statement shall console log `You got an FAILED`
 
 Good Luck 😀
