@@ -1,16 +1,18 @@
-## Javascript Fundementals Challenge Five💪🏾
+## Javascript Fundementals Challenge💪🏾
 
-Ever wonder how much a "lifetime supply" of your favorite snack is?
+You know how old your dog is in human years, but what about dog years? Calculate it!
 
 ##### Your Task 😃:
 
-1. Write a function named calculateSupply
-2. The function takes 2 arguments: age, amount per day.
-3. calculates the amount consumed for rest of the life (based on a constant max age).outputs the result to the screen like so: "You will need NN to last you until the old age of X"
-4. Call that function three times, passing in different values each time.
+Write a function named calculateDogAge that:
+
+1. takes 1 argument: your puppy's age.
+2. calculates your dog's age based on the conversion rate of 1 human year to 7 dog years.
+3. outputs the result to the screen like so: "Your dog is NN years old in dog years!"
+4. Call the function twice with different sets of values and see which dog is older.
 
 Good Luck 😀
 
 ###### Example
 
-If i pass the age 52 and amount per day 2 the the function `calculateSupply` the function should return or console log _'You will need 104 to last you until the old age of 52'_
+If i pass 12 to calculateDogAge function then the function should console _`Your dog is 84 years old in dog years!`_
