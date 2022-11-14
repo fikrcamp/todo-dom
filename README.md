@@ -1,18 +1,11 @@
-## Javascript Fundementals Challenge💪🏾
+## Tip calculator using DOM💪🏾
 
-You know how old your dog is in human years, but what about dog years? Calculate it!
+Aisha wants to build a very simple tip calculator for whenever she goes eating in a restaurant. In her country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
 
 ##### Your Task 😃:
 
-Write a function named calculateDogAge that:
-
-1. takes 1 argument: your puppy's age.
-2. calculates your dog's age based on the conversion rate of 1 human year to 7 dog years.
-3. outputs the result to the screen like so: "Your dog is NN years old in dog years!"
-4. Call the function twice with different sets of values and see which dog is older.
+1. Using your DOM knowledge when user enters his bill inside the textbox and clicks on the button
+   - Calculate the tip, depending on the bill value.
+   - Display a the following sentence using dom inside the P tag with the class name of result Example: _'The bill was 275, the tip was 41.25, and the total value 316.25'_
 
 Good Luck 😀
-
-###### Example
-
-If i pass 12 to calculateDogAge function then the function should console _`Your dog is 84 years old in dog years!`_
