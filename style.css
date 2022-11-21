@@ -80,3 +80,9 @@
     cursor: pointer;
     border-radius: 4px;
 }
+.task button{
+    color: #f44336;
+}
+.task {
+    height: 20px;
+}
