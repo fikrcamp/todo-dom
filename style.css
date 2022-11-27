@@ -30,6 +30,10 @@
     margin-left: 10px;
     cursor: pointer;
 }
+#add:hover{
+    background-color: rgb(26, 13, 13);
+    transition-delay: 0.5s;
+}
 .tasks {
     background-color: #eee;
     margin-top: 20px;
@@ -46,10 +50,17 @@
     transition: 0.3s;
     cursor: pointer;
     border: 1px solid #ccc;
+    justify-content: center;
+    font-size: 20px;
 }
 
 .tasks .task:hover {
-    background-color: #f7f7f7;
+    background-color: #63166d;
+    color:#fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    font-size: 20px;
+   
 }
 .tasks .task.done {
     opacity: 0.5;
